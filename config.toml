@@ -1,3 +1,7 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://rickytribbia.github.io/ilaericky/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ila e Ricky"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
