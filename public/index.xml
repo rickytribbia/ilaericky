@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ila e Ricky</title>
-    <link>http://rickytribbia.github.io/ilaericky/</link>
+    <link>http://ilaericky.it/</link>
     <description>Recent content on Ila e Ricky</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://rickytribbia.github.io/ilaericky/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ilaericky.it/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
