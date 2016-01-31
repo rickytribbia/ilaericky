@@ -1,14 +1,15 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL }}
 
-{{if .Params.image}}
-<header class="main-header post-head" style="background-image: url({{ $baseurl }}{{.Params.image}})">
-  <nav class="main-nav overlay clearfix">
+{{if .Params.cover}}
+  <header class="main-header tag-head" style="background-image: url({{ $baseurl }}{{.Params.cover}})">
+{{else if .Site.Params.cover}}
+  <header class="main-header tag-head" style="background-image: url({{ $baseurl }}{{.Site.Params.cover}})">
 {{else}}
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  <header class="main-header tag-head no-cover">
 {{end}}
-
+    <nav class="main-nav overlay clearfix">
+    
   {{ if .Site.Params.logo }}
       <a class="blog-logo" href="{{.Site.BaseURL}}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Home" /></a>
   {{end}}
