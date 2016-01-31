@@ -8,14 +8,14 @@ canonifyurls = true
 theme = "casper"
 
 [params]
-  description = "this is my description"
+  description = "Ci sposiamo il 25 Giugno 2016!"
   cover = "images/cover.png"
-  author = "Valère JEANTET"
-  authorlocation = "Paris, France"
-  authorwebsite = "http://vjeantet.fr"
-  bio= "my bio"
-  logo = "images/logo.png"
-  googleAnalyticsUserID = "UA-79101-12"
+  author = "Riccardo Tribbia e Ilaria Bariletti"
+  authorlocation = "Besenello, Italy"
+  authorwebsite = "http://ilaericky.it"
+  #bio= "my bio"
+  #logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-38837728-2"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   # RSSLink = "http://feeds.feedburner.com/..." 
   # githubName = "vjeantet"
