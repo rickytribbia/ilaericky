@@ -1,10 +1,11 @@
 +++
 author = ""
-comments = true
+comments = false
 date = "2016-01-31T14:32:31+01:00"
 draft = false
 image = ""
 menu = ""
+weight = 4
 share = true
 slug = "save-the-date"
 tags = ["savethedate"]
@@ -22,4 +23,4 @@ Eh, sì, se ci siete già passati anche voi sapete bene che mal di testa cercare
 - un lungo e sereno pranzo tra i colli di Bergamo
 - una serata tutta da godere in vostra compagnia con i piedi nell'erba e gli occhi rivolti alle costellazioni estive
 
-Spero che vogliate celebrare con noi questa giornata, vi aspettiamo!
+Speriamo che vogliate celebrare con noi questa giornata, vi aspettiamo!

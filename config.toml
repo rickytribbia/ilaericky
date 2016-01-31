@@ -24,3 +24,24 @@ theme = "casper"
   # linkedinName = ""
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Ila e Ricky"
+  weight = -120
+  identifier = "ilaericky"
+  url = "/"
+
+[[menu.main]]
+  name = "Save the date"
+  weight = -119
+  identifier = "save-the-date"
+  url = "/save-the-date"
+
+  [[menu.main]]
+  name = "Lista viaggio"
+  weight = -118
+  identifier = "lista-viaggio"
+  url = "/lista-viaggio"
