@@ -116,7 +116,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "genericons", "Open Sans", sans-serif;
+    font-family: "genericons", "Annie Use Your Telescope", cursive;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -190,9 +190,9 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: "Annie Use Your Telescope", cursive;
     letter-spacing: 0.01rem;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     line-height: 1.75em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
@@ -217,7 +217,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0.4em 0 0.4em 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Annie Use Your Telescope', cursive;
     text-rendering: geometricPrecision;
 }
 
@@ -518,6 +518,7 @@ body.nav-opened .site-wrapper {
 
 .main-header .inner {
     width: 80%;
+    margin-top:-250px;
 }
 
 .main-nav {
@@ -528,7 +529,7 @@ body.nav-opened .site-wrapper {
 
 .main-nav a {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 /* Navigation */
@@ -557,7 +558,7 @@ body.nav-opened .nav-cover {
                         opacity 0.3s ease 0.7s;
             transition: transform 0.5s ease,
                         opacity 0.3s ease 0.7s;
-font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+font-family: 'Annie Use Your Telescope', "Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana, cursive;
 font-weight: 700;
 font-size: 11px;
 color: #909090;
@@ -658,7 +659,7 @@ body.nav-opened .nav {
 .nav li a {
     text-decoration: none;
     line-height: 1.4;
-    font-size: 1.4rem;
+    font-size: 2rem;
     display: block;
     padding: 0.6rem 4%;
     overflow: hidden;
@@ -707,7 +708,7 @@ body.nav-opened .nav {
     color: #111 !important;
     text-align: center;
     font-size: 12px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Annie Use Your Telescope', cursive;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 35px;
@@ -816,7 +817,7 @@ body.nav-opened .nav {
     opacity: 1;
     color: #9EABB3;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase;
     line-height: 35px;
     white-space: nowrap;
@@ -885,19 +886,19 @@ body.nav-opened .menu-button .word {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 6.5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Annie Use Your Telescope', cursive;
     color: #fff;
 }
 
 .page-description {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.7rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: "Annie Use Your Telescope", cursive;
     letter-spacing: 0.01rem;
     color: rgb(255, 239, 0);
 }
@@ -968,7 +969,7 @@ body.nav-opened .menu-button .word {
 }
 
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 4.6rem;
 }
 
 .post-title a {
@@ -988,8 +989,8 @@ body:not(.post-template) .post-title {
 .post-meta {
     display: block;
     margin: 1.75rem 0 3rem 0;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 2rem;
     line-height: 2.2rem;
     color: #9EABB3;
 }
@@ -1312,7 +1313,7 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: "Annie Use Your Telescope", cursive;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1362,7 +1363,7 @@ body:not(.post-template) .post-title {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Annie Use Your Telescope', cursive;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
@@ -1447,7 +1448,7 @@ body:not(.post-template) .post-title {
     margin: 8rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Annie Use Your Telescope', cursive;
     font-size: 1rem;
     line-height: 1.75em;
     color: #BBC7CC;
@@ -1516,7 +1517,7 @@ body:not(.post-template) .post-title {
     }
 
     .page-description {
-        font-size: 1.8rem;
+        font-size: 3rem;
         line-height: 1.5em;
     }
 
@@ -1607,6 +1608,11 @@ body:not(.post-template) .post-title {
     .main-header {
         margin-bottom: 15px;
         height: 40vh;
+    }
+
+    .main-header .inner {
+        width: 80%;
+        margin-top:-140px;
     }
 
     .no-cover.main-header {
@@ -1781,7 +1787,7 @@ body:not(.post-template) .post-title {
     }
 
     .post-meta {
-        font-size: 1.3rem;
+        font-size: 1.8rem;
         margin-top: 1rem;
     }
 
