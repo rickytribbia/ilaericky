@@ -39,9 +39,3 @@ theme = "casper"
   weight = -119
   identifier = "save-the-date"
   url = "/save-the-date"
-
-  [[menu.main]]
-  name = "Lista viaggio"
-  weight = -118
-  identifier = "lista-viaggio"
-  url = "/lista-viaggio"
