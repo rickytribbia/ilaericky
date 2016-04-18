@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ila e Ricky</title>
-    <link>http://ilaericky.it/post/</link>
-    <description>Recent content in Posts on Ila e Ricky</description>
+    <title>Mappa on Ila e Ricky</title>
+    <link>http://ilaericky.it/tags/mappa/</link>
+    <description>Recent content in Mappa on Ila e Ricky</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jan 2016 14:32:31 +0100</lastBuildDate>
-    <atom:link href="http://ilaericky.it/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Save the date!</title>
-      <link>http://ilaericky.it/save-the-date/</link>
-      <pubDate>Sun, 31 Jan 2016 14:32:31 +0100</pubDate>
-      
-      <guid>http://ilaericky.it/save-the-date/</guid>
-      <description>&lt;p&gt;Hey!&lt;/p&gt;
-
-&lt;p&gt;Ciao, benvenuti! E&amp;hellip; salvatevi la data sul calendario, perché ci farebbe molto piacere avervi con noi a festeggiare il nostro matrimonio!&lt;/p&gt;
-
-&lt;p&gt;Eh, sì, se ci siete già passati anche voi sapete bene che mal di testa cercare di invitare tutti voi, quindi stiamo organizzando 3 momenti per quel fatidico giorno:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;la celebrazione del nostro matrimonio seguito da un aperitivo con tutti voi&lt;/li&gt;
-&lt;li&gt;un lungo e sereno pranzo tra i colli di Bergamo&lt;/li&gt;
-&lt;li&gt;una serata tutta da godere in vostra compagnia con i piedi nell&amp;rsquo;erba e gli occhi rivolti alle costellazioni estive&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Speriamo che vogliate celebrare con noi questa giornata, vi aspettiamo!&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Sat, 27 Feb 2016 14:03:31 +0100</lastBuildDate>
+    <atom:link href="http://ilaericky.it/tags/mappa/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Verso la location</title>
