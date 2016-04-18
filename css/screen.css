@@ -1502,6 +1502,10 @@ body:not(.post-template) .post-title {
     .scroll-down-2,
     .home-template .main-header:after { display: none; }
 
+    #mc_embed_signup {
+        left: 0%;
+    }
+
     .archive-template .main-header {
         min-height: 180px;
         padding: 10% 0;
