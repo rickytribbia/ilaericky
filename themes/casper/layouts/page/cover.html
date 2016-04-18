@@ -5,32 +5,30 @@
 {{if .Params.image}}
 <header class="main-header post-head" style="background-image: url({{ $baseurl }}{{.Params.image}})">
   <nav class="main-nav overlay clearfix">
-{{else}}
-<header class="main-header post-head no-cover">
-    <nav class="main-nav overlay clearfix">
-{{end}}
+    {{else}}
+    <header class="main-header post-head no-cover">
+      <nav class="main-nav overlay clearfix">
+        {{end}}
 
-      {{ if .Site.Params.logo }}
+        {{ if .Site.Params.logo }}
         <a class="blog-logo" href="{{.Site.BaseURL}}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Home" /></a>
-      {{end}}
-      {{ if .Site.Menus.main }}
-          <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
-      {{end}}
-    </nav>
+        {{end}}
+        {{ if .Site.Menus.main }}
+        <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+        {{end}}
+      </nav>
 
 
-    <div class="vertical">
+      <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{.Title}}</h1>
-            <h2 class="page-description">
-                {{if .Params.description}}
-                    {{.Params.description}}
-                {{end}}
-            </h2>
+          <h1 class="page-title">{{.Title}}</h1>
+          <h2 class="page-description">
+            {{if .Params.description}}
+            {{.Params.description}}
+            {{end}}
+          </h2>
         </div>
-    </div>
-
-
+      </div>
 
 </header>
 
@@ -44,78 +42,78 @@
   <article class="post {{ .Section }}">
     <header class="post-header">
 
-        <section class="post-meta">
+      <section class="post-meta">
         {{ if eq .Section "post"}}
-          <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-            {{ .Date.Format "Jan 2, 2006" }}
-          </time>
+        <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+          {{ .Date.Format "Jan 2, 2006" }}
+        </time>
         {{end}}
-         {{ range .Params.tags }}
-          <span class="post-tag small"><a href="{{ $baseurl }}tags/{{ . | urlize }}/">#{{ . }}</a></span>
-         {{ end }}
-        </section>
+        {{ range .Params.tags }}
+        <span class="post-tag small"><a href="{{ $baseurl }}tags/{{ . | urlize }}/">#{{ . }}</a></span>
+        {{ end }}
+      </section>
     </header>
 
     <section class="post-content">
 
 
-{{ .Content }}
+      {{ .Content }}
 
 
 
-<nav class="navpage">
+      <nav class="navpage">
 
-{{ $currentNode := . }}
-{{ range .Site.Menus.main }}
-{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .)}}
-      {{ range .Children }}
-      <ul>
-      <li><a href="{{.URL}}">{{.Name}}</a>
-      {{ if .HasChildren }}
-        <ul>
+        {{ $currentNode := . }}
+        {{ range .Site.Menus.main }}
+        {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .)}}
         {{ range .Children }}
+        <ul>
           <li><a href="{{.URL}}">{{.Name}}</a>
-          {{ if .HasChildren }}
+            {{ if .HasChildren }}
             <ul>
-            {{ range .Children }}
-            <li><a href="{{.URL}}">{{ .Name }}</a></li>
-            {{ end }}
-            </ul>
+              {{ range .Children }}
+              <li><a href="{{.URL}}">{{.Name}}</a>
+                {{ if .HasChildren }}
+                <ul>
+                  {{ range .Children }}
+                  <li><a href="{{.URL}}">{{ .Name }}</a></li>
+                  {{ end }}
+                </ul>
+                {{ end }}
+                {{ end }}
+              </ul>
+              {{ end }}
+            </li>
+          </ul>
           {{ end }}
-        {{ end }}
-        </ul>
-      {{ end }}
-      </li>
-      </ul>
-      {{ end }}
 
 
-{{end}}
-{{end}}
+          {{end}}
+          {{end}}
 
-</nav>
-
-
-    </section>
+        </nav>
 
 
-  <footer class="post-footer">
+      </section>
 
 
-    {{if .Site.Params.logo}}
-    <figure class="author-image">
-        <a class="img" href="{{.Site.BaseURL}}" style="background-image: url({{ $baseurl }}{{.Site.Params.logo}})"><span class="hidden">{{.Site.Params.author}}'s Picture</span></a>
-    </figure>
-    {{end}}
+      <footer class="post-footer">
 
-    {{ partial "author.html" . }}
 
-    {{ partial "share.html" . }}
+        {{if .Site.Params.logo}}
+        <figure class="author-image">
+          <a class="img" href="{{.Site.BaseURL}}" style="background-image: url({{ $baseurl }}{{.Site.Params.logo}})"><span class="hidden">{{.Site.Params.author}}'s Picture</span></a>
+        </figure>
+        {{end}}
 
-    {{ partial "disqus.html" . }}
+        {{ partial "author.html" . }}
 
-  </footer>
-</article>
+        {{ partial "share.html" . }}
 
-</main>
-{{ partial "footer.html" . }}
+        {{ partial "disqus.html" . }}
+
+      </footer>
+    </article>
+
+  </main>
+  {{ partial "footer.html" . }}
