@@ -2,23 +2,22 @@
 author = ""
 comments = false
 date = "2016-01-31T15:19:33+01:00"
-draft = true
+draft = false
 image = ""
 menu = ""
-weight = 5
+weight = 4
 share = true
 slug = "lista-viaggio"
-tags = ["info"]
+tags = ["info", "lista-viaggio", "regali"]
 title = "Lista viaggio"
 
 +++
 
-OK: l'unico motivo per cui vorreste darci dei soldi è non vederci per un po' giusto? 
-Grazie tante. Antipatici che non siete altro. ;-) 
+Semplice, chiaro ed efficace: non ci serve nulla, a parte festeggiare questo matrimonio! ;-) 
 
 #### Cosa?
 
-Scherziamo: ascoltate, se proprio ci tenete a farci un regalo vi consigliamo di aiutarci ad andare in vacanza! 
+Ascoltate, se proprio ci tenete a farci un regalo vi consigliamo di aiutarci ad andare in vacanza! 
 
 Anche perché è vero che non abbiamo una casa, non abbiamo una regione specifica di appartenenza, siamo abbastanza isolati su in Trentino, ma.. non ci manca niente! Quindi non vediamo l'ora di fare un'esperienza che ci rimanga per tutta la vita. 
 
@@ -32,7 +31,7 @@ Come preferite e come vi sentite più a vostro agio. Non siamo persone abituate 
 
 2. Busta al matrimonio? Non so se avremo la lucidità reale di ringraziarvi come si deve, ma "eppur funziona", come dicono i saggi
 
-3. IBAN: pratico, on-line, veloce. Ci sta. Magari un po' di fantasia per un qualcosa simbolico da 50 cent datecelo al matrimonio così possiamo poi riempirci la casa dei vostri ricordi. 
+3. IBAN: pratico, on-line, veloce. Ci sta. Magari un po' di fantasia per un qualcosa simbolico da 50 cent lasciatecelo al matrimonio così possiamo poi riempirci la casa dei vostri ricordi. 
 
 ```
 Intestatario: Tribbia Riccardo

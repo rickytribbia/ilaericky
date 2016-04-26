@@ -30,18 +30,30 @@ theme = "casper"
 
 [[menu.main]]
   name = "Ila e Ricky"
-  weight = -120
+  weight = 1
   identifier = "ilaericky"
   url = "/"
 
 [[menu.main]]
   name = "Save the date"
-  weight = -119
+  weight = 2
   identifier = "save-the-date"
   url = "/save-the-date"
 
-  [[menu.main]]
+[[menu.main]]
+  name = "Scrivici!"
+  weight = 3
+  identifier = "scrivici"
+  url = "/scrivici"
+
+[[menu.main]]
+  name = "Verso la location"
+  weight = 4
+  identifier = "verso-la-location"
+  url = "/mappa"
+
+[[menu.main]]
   name = "Lista viaggio"
-  weight = -118
+  weight = 5
   identifier = "lista-viaggio"
   url = "/lista-viaggio"
