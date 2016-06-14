@@ -63,3 +63,10 @@ theme = "casper"
   weight = 6
   identifier = "save-the-date"
   url = "/save-the-date"
+
+[[menu.main]]
+  name = "App foto"
+  weight = 7
+  identifier = "app-foto"
+  url = "/app-foto"
+  
