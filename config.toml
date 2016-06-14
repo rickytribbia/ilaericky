@@ -35,10 +35,10 @@ theme = "casper"
   url = "/"
 
 [[menu.main]]
-  name = "Save the date"
+  name = "Info utili"
   weight = 2
-  identifier = "save-the-date"
-  url = "/save-the-date"
+  identifier = "organizzazione"
+  url = "/organizzazione"
 
 [[menu.main]]
   name = "Scrivici!"
@@ -57,3 +57,9 @@ theme = "casper"
   weight = 5
   identifier = "lista-viaggio"
   url = "/lista-viaggio"
+
+[[menu.main]]
+  name = "Save the date"
+  weight = 6
+  identifier = "save-the-date"
+  url = "/save-the-date"

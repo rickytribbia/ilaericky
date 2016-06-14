@@ -1477,6 +1477,10 @@ body:not(.post-template) .post-title {
     float: left;
 }
 
+.google-maps {
+    width: 100%;
+}
+
 
 /* ==========================================================================
    10. Media Queries - Smaller than 900px
@@ -1860,6 +1864,9 @@ body:not(.post-template) .post-title {
         display: none;
     }
 
+    .google-maps {
+        width: 100%;
+    }
 }
 
 
