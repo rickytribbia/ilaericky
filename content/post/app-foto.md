@@ -27,7 +27,7 @@ Scaricatela, aggiungetevi come invitati e vediamo le foto di tutti!
 
 
 
-## Codice dell'album: ** I T 4 0 9 a c d 2 6 ** ##
+## Codice dell'album: <span style="font-family: Georgia">IT409acd26</span>  ##
 
 ### Enjoy! ###
 
