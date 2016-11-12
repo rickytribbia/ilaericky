@@ -35,10 +35,10 @@ theme = "casper"
   url = "/"
 
 [[menu.main]]
-  name = "Info utili"
+  name = "Itinerario viaggio"
   weight = 2
-  identifier = "organizzazione"
-  url = "/organizzazione"
+  identifier = "itinerario"
+  url = "/itinerario"
 
 [[menu.main]]
   name = "Scrivici!"
@@ -47,26 +47,14 @@ theme = "casper"
   url = "/scrivici"
 
 [[menu.main]]
-  name = "Verso la location"
-  weight = 4
-  identifier = "verso-la-location"
-  url = "/mappa"
-
-[[menu.main]]
   name = "Lista viaggio"
-  weight = 5
+  weight = 4
   identifier = "lista-viaggio"
   url = "/lista-viaggio"
 
 [[menu.main]]
-  name = "Save the date"
-  weight = 6
-  identifier = "save-the-date"
-  url = "/save-the-date"
-
-[[menu.main]]
   name = "App foto"
-  weight = 7
+  weight = 5
   identifier = "app-foto"
   url = "/app-foto"
   
