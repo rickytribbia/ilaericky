@@ -16,5 +16,7 @@ Grazie ai vostri regali siamo riusciti a organizzare questo che si prospetta com
 
 Ed ecco l'itinerario della nostra luna di miele! 
 
+Ti consigliamo di cliccare sull'icona in alto a destra del riquadro sottostante per visualizzare la mappa in una nuova scheda del tuo browser così da poterla navigare al meglio ;-)
+
 {{<map_tour>}}{{</map_tour>}}
 
