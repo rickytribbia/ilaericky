@@ -6,9 +6,11 @@ draft = false
 image = ""
 menu = ""
 share = true
-slug = "post-title"
-tags = ["tag1", "tag2"]
-title = "in_partenza"
+slug = "in-partenza"
+tags = ["luna di miele", "viaggio di nozze"]
+title = "In partenza"
 
 +++
+
+Ciao a tutti! NOI PARTIAMO PER LA LUNA DI MIELE!!!!
 

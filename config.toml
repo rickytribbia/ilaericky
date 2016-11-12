@@ -8,12 +8,12 @@ canonifyurls = true
 theme = "casper"
 
 [params]
-  description = "Ci sposiamo il 25 Giugno 2016!"
+  description = "Ci siamo sposati il 25 Giugno 2016!"
   cover = "images/cover.png"
   author = "Riccardo Tribbia e Ilaria Bariletti"
   authorlocation = "Besenello, Italy"
   authorwebsite = "http://ilaericky.it"
-  bio = "Ci sposiamo davvero! Il 25 giugno 2016"
+  bio = "Ci siamo sposati davvero! Il 25 giugno 2016"
   logo = "images/logo.png"
   googleAnalyticsUserID = "UA-38837728-2"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
